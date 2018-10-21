@@ -1,0 +1,170 @@
+*{
+	box-sizing:border-box;
+}
+
+/*h1 {
+  font-family: 'Shadows Into Light', cursive;
+  color: #e8e8e8;
+  padding-left: 300px;
+  padding-top: 300px;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'Dosis', sans-serif;
+  color: #e8e8e8;
+  padding-left: 300px;
+  font-size: 44px;
+
+}*/
+
+header main footer{
+	width:100%;
+	max-width:1440px;
+	min-width:320px;
+	margin:auto;
+}
+
+header {
+  background:#042538 url('images/trouverunefleur.png') top center no-repeat;
+  background-size: cover;
+  height: auto;
+  display: block;
+  max-width: 100%;
+  margin: auto;
+  padding-top: 650px;
+  position: relative;
+}
+
+
+input {
+
+  font-family: 'Shadows Into Light', cursive;
+  color: #e8e8e8;
+  background-color: #fe2b34;
+  float: right;
+  border: none;
+
+}
+
+body{
+  font-family: 'Dosis', sans-serif;
+}
+
+ul {
+  background-color: #e8e8e8;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display:flex;
+	justify-content:space-between;
+  align-items:center;
+  position: relative;
+}
+
+li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+a{
+  text-decoration: none;
+  color:#042538;
+}
+
+a:hover {
+color: #fe2b34;
+
+
+}
+
+.col{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	align-items: stretch;
+}
+.col > *{
+	min-width:280px;
+	/* max-width:480px; */
+	margin:20px;
+}
+.col2 > *{
+	width:calc((100% / 2) - 40px);
+}
+.col3 > *{
+	width:calc((100% / 3) - 40px);
+}
+.col4> *{
+	width:calc((100% / 4) - 40px);
+}
+.col5> *{
+	width:calc((100% / 5) - 40px);
+}
+.col6> *{
+	width:calc((100% / 6) - 40px);
+}
+
+ video{
+	display:block;
+	width:100%;
+}
+
+main{
+	background-color:#e8e8e8;
+	padding:20px;
+}
+
+main h4 {
+	margin:0;
+	font-size:24px;
+	text-align:center;
+	padding:20px 0;
+  color: #fe2b34;
+}
+
+main .col{
+	max-width:960px;
+	margin:0px auto;
+}
+main video{
+	display:block;
+	width:100%;
+}
+main p{
+	font-size:16px;
+  border: 1px solid #042538;
+  width: 100px;
+  padding: 10px;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #042538;
+}
+
+@media all and (min-width: 680px){
+	main{
+		padding:40px 0;
+    column-count: 2;
+	}
+}
+
+footer{
+	background-color:#fe2b34;
+}
+
+footer p{
+	margin: 0;
+	padding: 20px;
+}
+
+footer a{
+	color: #FFF;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+footer a:hover{
+  color: #042538;
+}
